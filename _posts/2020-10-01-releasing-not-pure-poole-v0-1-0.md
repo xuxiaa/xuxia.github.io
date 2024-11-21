@@ -6,5 +6,5 @@ tags:
 - jekyll theme
 - jekyll
 ---
--Personal Pages: https://xuxiaa.github.io/
--Google Scholar: https://scholar.google.com/citations?user=F14qOygAAAAJ&hl=zh-CN
+Personal Pages: https://xuxiaa.github.io/
+Google Scholar: https://scholar.google.com/citations?user=F14qOygAAAAJ&hl=zh-CN
