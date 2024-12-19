@@ -1,6 +1,6 @@
 ---
 layout: archive-dates
-permalink: /dates/
+permalink: /Homepage/
 title: Dates
 ---
 
