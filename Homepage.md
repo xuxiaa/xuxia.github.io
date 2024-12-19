@@ -1,5 +1,5 @@
 ---
-layout: archive-dates
+layout: archive-homepage
 permalink: /Homepage/
 title: Dates
 ---
