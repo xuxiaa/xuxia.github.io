@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Qiaoying
+title: Qiaoying Qu, Bin Pan, <strong>Xia Xu<strong>*, Tao Li and Zhenwei Shi. Unmixing Guided Unsupervised Network for RGB Spectral Super-Resolution. IEEE Transactions on Image Processing, vol. 32, pp. 4856-4867, 2023. 
 tags: \
 math: true
 ---
