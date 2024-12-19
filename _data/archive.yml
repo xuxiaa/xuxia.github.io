@@ -1,3 +1,6 @@
+- type: Homepage
+  title: Homepage
+  url: /Homepage/
 - type: dates
   title: Publications
   url: /dates/
