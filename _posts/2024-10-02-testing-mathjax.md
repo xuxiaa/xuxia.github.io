@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Education/Work
+title: Qiaoying Qu, Bin Pan, <strong>Xia Xu<strong>*, Tao Li and Zhenwei Shi. Unmixing Guided Unsupervised Network for RGB Spectral Super-Resolution. IEEE Transactions on Image Processing, vol. 32, pp. 4856-4867, 2023.
 tags: \
 math: true
 ---
-I am currently a Professor at the School of Computer Science and Technology, Tiangong University. I received my Ph.D. from Beihang University in 2019, supervised by Prof. Zhenwei Shi. I received my M.D. and B.S. from Yanshan University in 2015 and 2012. During 2019 - 2024, I was a postdoc research fellow at Nankai University. I study remote sensing and multi-objective optimization.
+[[Paper]](https://doi.org/10.1109/TIP.2023.3299197) 
+[[Code]](https://github.com/Lab-PANbin/UnGUN-Unmixing-Guided-Unsupervised-Network-for-RGB-Spectral-Super-Resolution)
 
