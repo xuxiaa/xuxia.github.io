@@ -10,6 +10,9 @@
 - type: Academic
   title: Academic Service 
   url: /Academic/
+- type: Journal
+  title: Journal Review Service 
+  url: /Journal/
 #- type: categories
 #  title: Categories
 #  url: /categories/
