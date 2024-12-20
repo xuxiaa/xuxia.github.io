@@ -4,6 +4,9 @@
 - type: dates
   title: Publications
   url: /dates/
+- type: Teaching
+  title: Teaching
+  url: /Teaching/
 #- type: categories
 #  title: Categories
 #  url: /categories/
