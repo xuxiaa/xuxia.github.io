@@ -4,7 +4,8 @@ layout: default
 
 {% include home-header.html %}
 
-<h1>{{ page.title | markdownify }}</h1>
+<h1>{{ page.title | markdownify | replace: "Xia Xu", "<strong>Xia Xu</strong>" }}</h1>
+
 
 {%- assign taxonomies = site.posts | group_by_exp: "post", "post.date | date: '%Y'" -%}
 
