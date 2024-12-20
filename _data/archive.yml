@@ -7,6 +7,9 @@
 - type: Teaching
   title: Teaching
   url: /Teaching/
+- type: Academic
+  title: Academic Service 
+  url: /Academic/
 #- type: categories
 #  title: Categories
 #  url: /categories/
