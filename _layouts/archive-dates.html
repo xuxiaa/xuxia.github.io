@@ -6,6 +6,17 @@ layout: default
 
 <h1>{{ page.title | markdownify | replace: "Xia Xu", "<strong>Xia Xu</strong>" }}</h1>
 
+<!-- 直接按时间顺序展示所有文章，不显示时间 -->
+<ul class="post-list">
+  {%- assign posts = site.posts | sort: 'date' -%}  <!-- 按时间排序所有文章 -->
+  {%- for post in posts -%}
+    <li>
+      &raquo; <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+    </li>
+  {%- endfor -%}
+</ul>
+
+
 {% comment %} Show posts by taxonomy {% endcomment %}
 {%- for taxonomy in taxonomies -%}
   <h2 id="{{ taxonomy.name }}">
