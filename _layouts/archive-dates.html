@@ -14,10 +14,6 @@ layout: default
       <!-- 跳过显示年份名称 -->
       {%- for post in taxonomy.items -%}
         <li>
-          <a class="taxonomy" href="{{ post.url | relative_url }}">
-            <span>{{ post.title }}</span> <!-- 显示文章标题 -->
-            <span class="taxonomy-count">{{ post.date | date: '%B %d, %Y' }}</span> <!-- 显示文章的发布日期 -->
-          </a> 
         </li>
       {%- endfor -%}
     {%- endfor -%}
