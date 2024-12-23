@@ -6,18 +6,20 @@ layout: default
 
 <h1>{{ page.title }}</h1>
 
-
 {%- assign taxonomies = site.posts | group_by_exp: "post", "post.date | date: '%Y'" -%}
+
 <div class="taxonomies-wrapper">
   <ul class="taxonomies">
     {%- for taxonomy in taxonomies -%}
-      <li>
-        {%- capture link -%}{{ page.permalink }}#{{ taxonomy.name }}{%- endcapture -%}
-        <a class="taxonomy" href="{{ link | relative_url }}">
-            <span>{{ taxonomy.name }}</span>
-            <span class="taxonomy-count">{{ taxonomy.size }}</span>
-        </a> 
-      </li>
+      <!-- 跳过显示年份名称 -->
+      {%- for post in taxonomy.items -%}
+        <li>
+          <a class="taxonomy" href="{{ post.url | relative_url }}">
+            <span>{{ post.title }}</span> <!-- 显示文章标题 -->
+            <span class="taxonomy-count">{{ post.date | date: '%B %d, %Y' }}</span> <!-- 显示文章的发布日期 -->
+          </a> 
+        </li>
+      {%- endfor -%}
     {%- endfor -%}
   </ul>
 </div>
