@@ -5,13 +5,13 @@
 
 .post-entry {
   border-bottom: 1px solid var(--border-color);
-  margin-bottom: var(--spacer-2);
+  margin-bottom: var(--spacer-3);
 }
 
 .page,
 .post {
   font-family: var(--text-font);
-  margin-bottom: 4em;
+  margin-bottom: 2em;
 
   h1, h2, h3, h4, h5, h6, .post-meta {
     font-family: var(--body-font);
@@ -44,7 +44,7 @@
 // Meta data line below post title
 .post-meta {
   display: block;
-  margin-top: -.5rem;
+  margin-top: -.2rem;
   margin-bottom: var(--spacer);
   color: var(--gray-600);
 }
