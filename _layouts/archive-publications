@@ -1,0 +1,9 @@
+---
+layout: default
+---
+
+{% include home-header.html %}
+
+<ul style="list-style-type: disc; font-size: 0.9em; line-height: 1.4;">
+  <li> Sumin Wang, Yuyou Gao, Yongdao Zhou, Bin Pan, Xia Xu*, Tao Li. Reducing the statistical error of generative adversarial networks using space-filling sampling. Stat 13 (1), e655, 2023. 
+</ul>
