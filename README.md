@@ -16,6 +16,8 @@ See Not Pure Poole in action with [the demo site](https://vszhub.github.io/not-p
 
 ![Screenshot](screenshot.png)
 
+[Zhenwei Shi](https://levir.buaa.edu.cn/)
+
 ## Table of Contents <!-- omit in toc -->
 
 - [Features](#features)
