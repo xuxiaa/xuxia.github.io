@@ -1,9 +1,9 @@
 - type: Homepage
   title: Homepage
   url: /Homepage/
-- type: dates
+- type: Publications
   title: Publications
-  url: /dates/
+  url: /Publications/
 - type: Teaching
   title: Teaching
   url: /Teaching/
